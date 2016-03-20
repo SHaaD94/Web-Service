@@ -67,5 +67,4 @@ public class HttpServer extends SyncVerticle {
         }
         httpServerRequest.response().end(resultJsonObject.toString());
     }
-
 }
